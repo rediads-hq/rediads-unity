@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The Rediads AdMob custom events (the classes AdMob's mediation groups name), on top of the SDK that
+  com.rediads.ads adds. Google's SDK itself comes with Google's plugin (com.google.ads.mobile).
+  Same sources as com.rediads.ads: Maven Central, and the pod list in github.com/rediads-hq/rediads-ios.
+-->
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.rediads:rediads-admob:0.1.0-beta1">
+      <repositories>
+        <repository>https://repo.maven.apache.org/maven2</repository>
+      </repositories>
+    </androidPackage>
+    <!-- The bridge (rediads-unity-admob.aar) uses the engine's mediation classes. -->
+    <androidPackage spec="com.rediads:rediads-engine:0.1.0-beta1" />
+    <androidPackage spec="com.rediads:rediads-admob-adapters:0.1.0-beta1" />
+  </androidPackages>
+  <iosPods>
+    <iosPod name="RediadsAdMobAdapters" version="0.1.3">
+      <sources>
+        <source>https://github.com/rediads-hq/rediads-ios.git</source>
+        <source>https://cdn.cocoapods.org/</source>
+      </sources>
+    </iosPod>
+  </iosPods>
+</dependencies>

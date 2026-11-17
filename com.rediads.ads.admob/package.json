@@ -1,0 +1,21 @@
+{
+  "name": "com.rediads.ads.admob",
+  "version": "0.1.0-beta1",
+  "displayName": "Rediads Ads for AdMob",
+  "description": "Rediads bids in AdMob mediation, for games that show ads with Google's AdMob Unity plugin.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Rediads",
+    "url": "https://rediads.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "com.rediads.ads": "0.1.0-beta1"
+  },
+  "keywords": [
+    "ads",
+    "rediads",
+    "admob",
+    "mediation"
+  ]
+}

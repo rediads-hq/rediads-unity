@@ -1,0 +1,22 @@
+{
+  "name": "com.rediads.ads.gam",
+  "version": "0.1.0-beta1",
+  "displayName": "Rediads Ads for Google Ad Manager",
+  "description": "Rediads in Google Ad Manager, for games that show ads with Google's Mobile Ads Unity plugin: bidding-only (GAM renders) and SDK-rendered (the Rediads SDK renders Rediads wins).",
+  "unity": "2022.3",
+  "author": {
+    "name": "Rediads",
+    "url": "https://rediads.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "com.rediads.ads": "0.1.0-beta1"
+  },
+  "keywords": [
+    "ads",
+    "rediads",
+    "gam",
+    "google ad manager",
+    "header bidding"
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The SDK's Google Ad Manager module (its bidding-only classes fetch the bid and its GAM keys), on top
+  of the SDK that com.rediads.ads adds. Google's SDK itself comes with Google's plugin
+  (com.google.ads.mobile). Same sources as com.rediads.ads: Maven Central, and the pod list in
+  github.com/rediads-hq/rediads-ios.
+-->
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.rediads:rediads-gam:0.1.0-beta1">
+      <repositories>
+        <repository>https://repo.maven.apache.org/maven2</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+  <iosPods>
+    <iosPod name="RediadsGAMEventHandlers" version="0.1.3">
+      <sources>
+        <source>https://github.com/rediads-hq/rediads-ios.git</source>
+        <source>https://cdn.cocoapods.org/</source>
+      </sources>
+    </iosPod>
+    <iosPod name="RediadsGAM" version="0.1.3" />
+  </iosPods>
+</dependencies>

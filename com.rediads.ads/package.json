@@ -1,0 +1,23 @@
+{
+  "name": "com.rediads.ads",
+  "version": "0.1.0-beta1",
+  "displayName": "Rediads Ads",
+  "description": "Banner, interstitial and rewarded ads from the Rediads SDK (iOS and Android), and Rediads bids for AdMob mediation.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Rediads",
+    "url": "https://rediads.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "com.unity.external-dependency-manager": "2.1.0",
+    "com.unity.modules.androidjni": "1.0.0"
+  },
+  "keywords": [
+    "ads",
+    "advertising",
+    "rediads",
+    "prebid",
+    "admob"
+  ]
+}
